@@ -1,0 +1,127 @@
+/* Box Sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Universal Selector */
+h5 {
+  /* Flex Layout */
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  margin: 0;
+}
+
+form {
+  /* Full Width */
+  width: 100%;
+}
+
+/* Class Based  */
+.main-container {
+  /* Full Width and Height */
+  width: 100%;
+  min-height: 100vh;
+  padding-block: 10vh;
+  /* Flex Layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* Width, Background, Flex Layout, Spacing, Padding, Border */
+  width: 80%;
+  background: rgb(240, 239, 239);
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #36383f;
+  border-radius: 5px;
+}
+
+/* Form Container */
+.form-container {
+  width: 100%;
+}
+
+.form-container p {
+  /* Font Size */
+  font-size: 13px;
+  line-height: 0;
+}
+
+.inputs input,
+button {
+  /* Padding */
+  padding: 5px;
+}
+
+.form-container .form-input,
+button {
+  /* Flex Layout, Text Alignment, Width, Outline */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  outline: none;
+  text-align: left;
+  color: rgb(133, 132, 132);
+}
+
+/* Copy */
+.copy {
+  /* Flex Layout, Color, Font Size, Margin */
+  display: flex;
+  align-items: center;
+  color: #2b7de9;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* Dropdown */
+.dropdown {
+  /* Positioning */
+  position: relative;
+}
+
+.dropdown-list {
+  /* Positioning, Width, Background, Border, Z-Index, Box Shadow */
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  border: 1px solid lightgray;
+  z-index: 999;
+  box-shadow: 0 0 5px lightgray;
+}
+
+/* Dropdown List */
+.dropdown-list input {
+  /* Full Width */
+  width: 100%;
+  padding: 5px;
+}
+
+/* List Items */
+.list-items {
+  /* List Style, Max Height, Overflow, Margin, Padding */
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  /* Cursor, Padding, Font Size */
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 13px;
+}
+
+.list-item:hover {
+  /* Background Color */
+  background: rgb(199, 195, 195);
+}
